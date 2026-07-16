@@ -1,9 +1,9 @@
 package com.example
 
 import android.app.Application
-import com.example.data.local.RailDatabase
-import com.example.data.repository.GeminiRepository
-import com.example.data.repository.RailRepository
+import com.example.core.database.RailDatabase
+import com.example.core.database.RailRepository
+import com.example.core.network.GeminiRepository
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.SupervisorJob
 import kotlinx.coroutines.flow.first
